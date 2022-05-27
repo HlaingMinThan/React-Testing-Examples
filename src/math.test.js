@@ -5,3 +5,7 @@ it('can do some math', () => {
     expect(multiply(4, 2)).toBe(8);
     expect(substract(4, 2)).toBe(2);
 })
+
+it('can test string', () => {
+    expect("Hello world").toContain("Hello");
+})
